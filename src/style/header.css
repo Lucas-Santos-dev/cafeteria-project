@@ -31,3 +31,44 @@ header {
     color: #1D1D1D;
     border-bottom: 3px solid #FFE100;
 }
+
+#mobileBtn {
+    display: none;
+}
+
+#mobileMenu {
+    display: none;
+}
+
+@media screen and (max-width: 1170px) {
+    #navList,
+    #navBar .btnDefault {
+        display: none;
+    }
+
+    #mobileBtn {
+        display: block;
+        border: none;
+        background-color: transparent;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    #mobileMenu.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #mobileNavList {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        margin: 12px 0px;
+    }
+
+    #mobileNavList .navItem {
+        list-style: none;
+        text-align: center;
+    }
+}
