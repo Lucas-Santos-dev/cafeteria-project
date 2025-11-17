@@ -70,5 +70,6 @@ header {
     #mobileNavList .navItem {
         list-style: none;
         text-align: center;
+        /* color: #1D1D1D; */
     }
 }
