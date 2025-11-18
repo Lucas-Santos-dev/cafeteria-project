@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./src/style/style.css">
     <link rel="stylesheet" href="./src/style/header.css">
     <link rel="stylesheet" href="./src/style/navBar.css">
     <link rel="stylesheet" href="./src/style/home.css">
     <link rel="stylesheet" href="./src/style/menu.css">
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <title>Cafeteria Project</title>
 </head>
+
 <body>
     <header>
         <nav id="navBar">
             <div id="navLogo">
-            <i class="fa-solid fa-burger" ></i>
-            HOLOFOOD
+                <i class="fa-solid fa-burger"></i>
+                HOLOFOOD
             </div>
             <ul id="navList">
                 <li class="navItem active">
@@ -42,7 +48,7 @@
         </nav>
 
         <div id="mobileMenu">
-             <ul id="mobileNavList">
+            <ul id="mobileNavList">
                 <li class="navItem">
                     <a href="#home">Início</a>
                 </li>
@@ -67,7 +73,9 @@
                 <h1 class="title">
                     O Sabor que vai até <span>você</span>
                 </h1>
-                <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, quod. Possimus aliquid consectetur ab perferendis adipisci eum error, reprehenderit distinctio sed dolores minus dignissimos cumque atque reiciendis non autem debitis!</p>
+                <p class="description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, quod.
+                    Possimus aliquid consectetur ab perferendis adipisci eum error, reprehenderit distinctio sed dolores
+                    minus dignissimos cumque atque reiciendis non autem debitis!</p>
 
                 <div id="ctaButtons">
                     <a href="#" class="btnDefault">Ver Cardápio</a>
@@ -212,8 +220,58 @@
             </div>
 
         </section>
+
+        <section id="testimonials">
+            <img src="./src/img/chef.png"  id="testimonialChef" alt="">
+            
+            <div id="testimonialsContent">
+                <h2 class="sectionTitle">
+                    Avaliações
+                </h2>
+                <h3 class="sectionSubtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+                <div class="feedbacks">
+                    <div class="feedback">
+                        <img src="./src/img/avatar.png"  class="feedbackAvatar" alt="">
+                        <div class="feedbackContent">
+                            <p>
+                                Rayssa
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"Lugar limpo e organizado, e o sabor das comidas sensacionais"</p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="./src/img/avatar.png"  class="feedbackAvatar" alt="">
+                        <div class="feedbackContent">
+                            <p>
+                                Luana
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>"As melhores comidas! Vou recomendar para todos os meus amigos"</p>
+                        </div>
+                    </div>
+                    <button class="btnDefault">
+                        Ver mais Avaliações
+                    </button>
+                </div>
+            </div>
+        </section>
     </main>
 
     <script src="./src/js/script.js"></script>
 </body>
+
 </html>
